@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
    const imageWrappers = document.querySelectorAll(".image-wrapper");
 
-   // Function to remove 'enlarged' class from all image wrappers
+   // reset
    function resetImageSize() {
       imageWrappers.forEach(function (wrapper) {
          wrapper.classList.remove("enlarged");
